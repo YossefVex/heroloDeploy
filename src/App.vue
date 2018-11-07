@@ -39,7 +39,11 @@
   width: $navWidth;
   height: 100%;
   background: $navBack;
-  
+  @media screen and (max-width: 700px) {
+    width: $navWidth_m;
+    max-width: $navWidth_m;
+  }
+
 }
 #body{
   float: left;

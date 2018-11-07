@@ -46,11 +46,13 @@
     </div>
     <!-- Movie List -->
     <div id="Fconv">
-      <div id="fconvHeader"class="flexi">
-          <div class="searchContainer">
-            <img src="../assets/Search.png" alt="">
-            <input autocomplete="off" class="searchBox" type="search" name="search" placeholder="Search...">
-        </div>
+      <div id="fconvHeader">
+          <div class="flexi">
+            <div class="searchContainer">
+              <img src="../assets/Search.png" alt="">
+              <input autocomplete="off" class="searchBox" type="search" name="search" placeholder="Search...">
+            </div>
+          </div>
       </div>
       <hr>
       <div id="conv" class="menuInnerMargin">
@@ -158,10 +160,9 @@ submitModal(){
 }
 #Fconv > hr{
   width: 100%;
-  margin: 15px 0 0 0;
 }
-#fconHeader{
-      margin-bottom: 30px;
+#fconvHeader{
+
 }
 .searchContainer{
   display:inline-flex;
@@ -254,7 +255,7 @@ padding: 10px 10px;
 }
 .modal-content img{
     @media only screen and (max-width: $phones) {
-  height: 400px;
+      height: 40vh;
 }
 }
 #year_input, #title_input{

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.db3ee7b33794b3acef8cd27de0f3c018.js"
+  "/precache-manifest.a9078ccb6ea227172af77b9d86f50e67.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "herolo"});

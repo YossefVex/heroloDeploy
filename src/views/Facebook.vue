@@ -77,6 +77,10 @@ height: 100%;
 }
 #convWrapper{
   width: 310px;
+  @media screen and (max-width: 700px) {
+    width: unset;
+    flex: 1 1 310px;
+  }
 }
 
 
